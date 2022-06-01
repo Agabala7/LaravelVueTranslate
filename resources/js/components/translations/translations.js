@@ -16,8 +16,8 @@ export default function useTranslations() {
         try {
             await axios.post('/api/translations', data)
             await router.push({ name : 'translations.add' })
-            errors.value = `<div class="alert alert-success">Ugurlu oldu</div>`
             success.value = true;
+            
         } catch (e) {
             if(e.response.status === 422) {
                 errors.value = e.response.data.errors

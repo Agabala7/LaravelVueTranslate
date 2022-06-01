@@ -8,8 +8,8 @@
         </div>
       </div>
       <div v-if="success">
-            <div class="alert alert-success" v-show="success">Ugurlu</div>
-          </div>
+        <div class="alert alert-success" v-show="success">Ugurlu</div>
+      </div>
         <form @submit.prevent="submitTranslate" enctype="multipart/form-data">
               <div class="card-body">
                 <div class="form-group">

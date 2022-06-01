@@ -13,7 +13,7 @@
 @section('addcss')
 @endsection
 @section('addjs')
-<script>
+{{-- <script>
   var useDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
   tinymce.init({
       selector: '#translations',
@@ -75,5 +75,5 @@
       content_style: 'body { font-family:Arial,Helvetica,sans-serif; font-size:14px }'
   });
 
-</script>
+</script> --}}
 @endsection

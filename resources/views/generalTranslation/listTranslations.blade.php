@@ -18,7 +18,7 @@
     <script src="{{ asset('assets/js/plugins/datatables/jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset('assets/js/plugins/datatables/dataTables.bootstrap4.min.js') }}"></script>
     <script src="{{ asset('assets/js/pages/be_tables_datatables.min.js') }}"></script>
-    <script>
+    {{-- <script>
         var useDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
         tinymce.init({
             selector: '#translations',
@@ -80,5 +80,5 @@
             content_style: 'body { font-family:Arial,Helvetica,sans-serif; font-size:14px }'
         });
       
-      </script>
+      </script> --}}
 @endsection

@@ -20360,25 +20360,24 @@ function useTranslations() {
               });
 
             case 6:
-              errors.value = "<div class=\"alert alert-success\">Ugurlu oldu</div>";
               success.value = true;
-              _context.next = 13;
+              _context.next = 12;
               break;
 
-            case 10:
-              _context.prev = 10;
+            case 9:
+              _context.prev = 9;
               _context.t0 = _context["catch"](1);
 
               if (_context.t0.response.status === 422) {
                 errors.value = _context.t0.response.data.errors;
               }
 
-            case 13:
+            case 12:
             case "end":
               return _context.stop();
           }
         }
-      }, _callee, null, [[1, 10]]);
+      }, _callee, null, [[1, 9]]);
     }));
 
     return function addTranslations(_x) {
